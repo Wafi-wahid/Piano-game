@@ -1,0 +1,140 @@
+body {
+  background-image: url("./background.jpg");
+  margin: 0;
+  border: border-box;
+}
+#piano {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#piano h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 10px;
+  color: white;
+}
+#piano h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 10px;
+  color: white;
+}
+
+#piano img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-size: cover;
+}
+
+.piano-board {
+  position: absolute;
+  top: 80px;
+  left: 50px;
+  width: 1300px;
+  height: 600px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255, 0.25);
+  backdrop-filter: blur(30px) !important;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.intro {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+.piano {
+  border: 5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1300px;
+}
+
+.key-white {
+  width: 100px;
+  height: 400px;
+  background-color: white;
+  border: 1px solid black;
+}
+.key-black {
+  position: relative;
+  z-index: 3;
+  top: 0;
+  left: 60px;
+  width: 60px;
+  height: 250px;
+  background-color: black;
+  overflow: auto;
+}
+
+.A h1 {
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 30px;
+  font-size: 3rem;
+}
+.B h1 {
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 30px;
+  font-size: 3rem;
+}
+.C h1 {
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 30px;
+  font-size: 3rem;
+}
+.D h1 {
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 30px;
+  font-size: 3rem;
+}
+.E h1 {
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 30px;
+  font-size: 3rem;
+}
+.F h1 {
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 30px;
+  font-size: 3rem;
+}
+.G h1 {
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 30px;
+  font-size: 3rem;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: white;
+}
+
+footer p {
+  text-align: center;
+  font-size: 1rem;
+}
